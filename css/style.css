@@ -7,7 +7,7 @@
 
 /* Html,Body */
 
-html,
+html, 
 body {
     height: 100%;
 
@@ -40,7 +40,7 @@ section {
     background: #fff;
     overflow: hidden;
 }
-/* Preloader */
+
 #preloader {
     background-color: white;
     position: fixed;
@@ -60,7 +60,7 @@ section {
     left: 50%;
     top: 50%;
     margin-top: -100px;
-    margin-left: -100px
+    margin-left: -100px */
 }
 
 /* Home */
@@ -167,7 +167,7 @@ section {
 /*  Content Box */
 
 content-box-lg {
-    padding: 120px
+    padding: 120px 0;
 }
 /* Vertical Heading */
 
