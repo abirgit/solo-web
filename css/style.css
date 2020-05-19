@@ -526,4 +526,8 @@ ul.social-list li:nth-child(3) a:hover {
     line-height: normal;
 }
 
+/* Services 2 Responsive Tabs */
 
+#services-02 {
+    background: #f4f4f4;
+}
