@@ -48,4 +48,39 @@ $(function () {
 });
 
 
+/*-- Portfolio -- */
+$(window).on('load', function () {
+   
+    // Initialize isotope //
+    $("#isotope-container").isotope ({
+    });
+    
+    //filter items on button click 
+    $("#isotope-filters").on('click', 'button', function() {
+       
+        //get filter value
+        var filtervalue = $(this).attr('data-filter');
+       // filter porfolio
+        $("#isotope-container").isotope ({
+            filter: filtervalue
+    });
+        // active button 
+        $("#isotope-filters").find('.active').removeClass('active');
+        $(this).addClass('active');
+    });
 
+});
+// Manefic Popup plugin
+$(function () {
+
+    $("#portfolio-wrapper").magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image',
+        gallery: {
+        enabled: true
+    }
+        
+    
+    });
+    
+    });
