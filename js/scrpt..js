@@ -84,3 +84,18 @@ $(function () {
     });
     
     });
+// Testimonial section
+$(function () {
+    $("#testimonial-slider").owlCarousel({
+        items: 1,
+        autoplay: false,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        nav: true,
+        dots: false,
+
+
+
+    });
+});
