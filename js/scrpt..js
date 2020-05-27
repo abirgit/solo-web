@@ -38,7 +38,6 @@ $(function () {
 
 
 
-
 /* Responsive Tabs */
     
 $(function () {
@@ -129,3 +128,45 @@ $(function () {
     });
 
 
+
+
+
+
+
+$(function () {
+    
+    showHideNav();
+    
+    $(window).scroll(function(){
+
+
+
+
+
+
+    showHideNav ();
+
+
+
+});
+
+    function showHideNav () {
+
+
+
+        
+        if( $(window).scrollTop() > 50 ) {
+           
+           // alert("Your Scroll position is greater than 5o pixels ="+ $(window).scrollTop());
+            $("nav").addClass("white-nav-top");
+            $(".navbar-brand img").attr("src","img/logo-dark.png")
+           } else {
+           //alert("Your Scroll position is greater than less pixels ="+ $(window).scrollTop());
+               $("nav").removeClass("white-nav-top");
+                $(".navbar-brand img").attr("src","img/logo.png")
+
+           }
+    
+    }
+    
+});
