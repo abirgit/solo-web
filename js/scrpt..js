@@ -15,9 +15,18 @@ $(function () {
         autoplayHoverPause: true,
         nav: true,
         dots: false,
+responsive : {
+    // breakpoint from 0 up
+    0 : {
+                items: 1,
 
+    },
+     // breakpoint from 480 up
+    480 : {
 
-
+            items: 2,
+    }
+}
     });
 });
 /* Progress Bars */
@@ -160,13 +169,37 @@ $(function () {
            // alert("Your Scroll position is greater than 5o pixels ="+ $(window).scrollTop());
             $("nav").addClass("white-nav-top");
             $(".navbar-brand img").attr("src","img/logo-dark.png")
+            // show back to top button 
+            
+            
+            $("#back-to-top").fadeIn();
+            
+            
+            
+            
            } else {
            //alert("Your Scroll position is greater than less pixels ="+ $(window).scrollTop());
                $("nav").removeClass("white-nav-top");
                 $(".navbar-brand img").attr("src","img/logo.png")
+            $("#back-to-top").fadeOut();
 
            }
     
     }
     
+});
+// Smoth Scrolling 
+
+$(function () {
+    
+    $("a.smooth-scroll").click(function(event) {
+        
+        event.preventDefault();
+        // get section id #about and etc 
+        var section_id = $(this).attr("href");
+        
+        $("html, body").animate({
+            scrollTop: $(section_id).offset().top -64
+    }, 1250, "easeInOutExpo");
+});
 });

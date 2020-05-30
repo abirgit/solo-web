@@ -184,12 +184,14 @@ section {
 
 
 
-
-
-
-
-
-
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 22px;
+}
 
 /* Arrow Down */
 #arrow-down {
@@ -688,8 +690,8 @@ ul.social-list li:nth-child(3) a:hover {
    -webkit-transition: -webkit-transform .5s ease;   
     transition: -webkit-transform .5s ease;   
     transition: transform .5s ease;   
-    transition: transform .5s ease, -webkit-
-    transform .5s ease;
+    transition: transform .5s ease, 
+    -webkit-transform .5s ease;
 }
 .portfolio-item:hover img {
     -webkit-transform: scale(1.09);    
@@ -1170,4 +1172,9 @@ background: none;
 .white-nav-top ul.navbar-nav > li > a:hover,
 .white-nav-top ul.navbar-nav > li > a:focus {
     color: #f4c613;
+}
+/* Scroll Spy */
+.white-nav-top ul.navbar-nav > li.active > a {
+    color: #f4c613;
+    font-weight: 500;
 }
