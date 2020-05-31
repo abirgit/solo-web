@@ -8,13 +8,13 @@
 }
 /* Medium Devices */
 
-@media (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 992px) and (max-width: 1199px) {
  
 }
 
 /* small Devices */
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px) {
   
     
     /* Home */
@@ -69,64 +69,26 @@ font-family: "Raleway",sans-serif;
     .pricing-table .price h2 {
         margin: 0 0 0 6px;
     }
-
+}
     /* ExtraSm Devices */
 
 @media (max-width: 767px) {
-
- /* Item Details Effect */
-.portfolio-item-details {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    -webkit-transform: translateY(-50%);    
-    transform: translateY(-50%);
-}
-
-.portfolio-item-details h3 {
-    color: #f4c613;
-    text-transform: uppercase;
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    -webkit-transform: translateY(-20%);    
-    transform: translateY(-20%);
-    -webkit-transition: all 0.1ms ease;    
-    transition: all 0.1ms ease;
-}
-.portfolio-item-details span {
-    display: inline-block;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    height: 6px;
-    width: 30px;
-    margin: 11px auto 5px auto;
-}
-.portfolio-item-details p {
-    font-size: 17px;
-    color: #fff;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-      -webkit-transform: translateY(20%);    
-    transform: translateY(20%);
-    -webkit-transition: all 0.1ms;    
-    transition: all 0.1ms
-}
-/* Show Overlay on mouse over */
-.portfolio-item:hover .portfolio-item-details h3 {
-    -webkit-transform: translateY(0);    
-    transform: translateY(0);
-}
-.portfolio-item:hover .portfolio-item-details h3 {
-     -webkit-transform: translateY(0);    
-    transform: translateY(0);
-}
-.portfolio-item:hover .portfolio-item-overlay {
-    opacity: 1;
-    
-}
-
-    
+    /* Home */
+    #home-heading h1  {
+        font-size: 25px;
+    }   
+    #home-heading p {
+        font-size: 14px;
     }
+    /* Tech Statement */
+    #tech-statement h3 {
+        font-size: 22px;
+        line-height: 30px;
+        font-family: "Open Sans", sans-serif;
+    }
+}
+
+
+
+
+
