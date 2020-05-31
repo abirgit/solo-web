@@ -132,9 +132,21 @@ $(function () {
         autoplayHoverPause: true,
         nav: true,
         dots: false,
+responsive : {
+    // breakpoint from 0 up
+    0 : {
+                items: 3,
 
+    },
+     // breakpoint from 480 up
+    480 : {
+
+            items: 6,
+    }
+}
     });
-    });
+});
+    
 
 
 
