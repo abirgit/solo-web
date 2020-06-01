@@ -73,6 +73,24 @@ font-family: "Raleway",sans-serif;
     /* ExtraSm Devices */
 
 @media (max-width: 767px) {
+    
+    /* Navigation */
+    .navbar {
+        padding: 20px 0;
+    }
+    .site-nav-wrapper,
+    .white-nav-top {
+        padding: 0;
+    }
+    /* Hide mobile menu open button */
+    #mobile-nav-open-btn {
+        display: block;
+    }
+    
+    
+    
+    
+    
     /* Home */
     #home-heading h1  {
         font-size: 25px;
