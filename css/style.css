@@ -240,7 +240,7 @@ content-box-lg {
     display: inline-block;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    position: relative;
+    position:relative;
     top: 180px;
     left: -53px;
     font-family: "Raleway", sans-serif;
@@ -253,6 +253,7 @@ content-box-lg {
     font-weight: 100;
     line-height: 45px;
     font-family: "Open Sans", sans-serif;
+    animation-delay: 5s;
 }
 
 .horizontal-heading {
@@ -712,8 +713,8 @@ ul.social-list li:nth-child(3) a:hover {
     cursor: -webkit-zoom-in;    
     cursor: zoom-in;
     opacity: 0;
-    -webkit-transition: all 0.3s ease;    
-    transition: all 0.3s ease;
+    -webkit-transition: all 0.9s ease;    
+    transition: all 0.9s ease;
     
 }
 /* Item Details Effect */
@@ -1258,4 +1259,19 @@ background: none;
 .white-nav-top #mobile-nav ul.nav > li.active > a {
     color: #f4c613;
     font-weight: 500;
+}
+
+/* Aninamtion */
+
+#home-text,
+#arrow-down,
+#home-html,
+#home-heading-2,
+#home-heading-1 {
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+#about-01 {
+    animation-delay: 10s;
+    animation-duration: 2s;
 }

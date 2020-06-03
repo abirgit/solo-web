@@ -36,7 +36,7 @@ $(function () {
         $(".progress-bar").each(function () {
             $(this).animate({
                 width: $(this).attr("aria-valuenow") + "%"
-            }, 800);
+            }, 2000);
         })
         this.destroy();
     }, {
@@ -239,3 +239,26 @@ $(function () {
     
     
 
+// Animation
+
+
+
+$(function () {
+// Animate on scrolll\
+     new WOW().init();
+
+    
+    });
+$(window).on('load', function () {
+    // Home
+   $("#home-heading-1").addClass("animated zoomInUp");
+    $("#home-heading-2").addClass("animated zoomInUp");
+        $("#home-html").addClass("animated fadeInLeft");
+    $("#arrow-down").addClass("animated fadeInDown infinite");
+            $("#home-text").addClass("animated fadeInRight");
+
+// About
+                
+
+
+});
