@@ -641,13 +641,10 @@ ul.social-list li:nth-child(3) a:hover {
 }
 /* Portfolio section */
 #portfolio {
-    padding: 160px;
+    padding-bottom:100px;
 }
 #portfolio .vertical-heading {
-    margin-bottom: 60px;
-}
-.row.no-gutters [class*=col-] {
-    padding: 0;
+    margin-bottom: 50px;
 }
 
 .portfolio-item {
@@ -663,11 +660,11 @@ ul.social-list li:nth-child(3) a:hover {
 /* Filter Css */
 #isotope-filters {
     margin-bottom: 10px;
-    padding: 20px; 25px 20px 0;
+    padding: 20px 25px 20px 0;
 }
 #isotope-filters button {
     font-family: "Raleway", sans-serif;
-    font-size:12px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
     background: transparent;
@@ -693,11 +690,10 @@ ul.social-list li:nth-child(3) a:hover {
    -webkit-transition: -webkit-transform .5s ease;   
     transition: -webkit-transform .5s ease;   
     transition: transform .5s ease;   
-    transition: transform .5s ease, 
-    -webkit-transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease;
 }
 .portfolio-item:hover img {
-    -webkit-transform: scale(1.09);    
+    -webkit-transform: scale(1.1);    
     transform: scale(1.1)
 }
 
@@ -711,7 +707,7 @@ ul.social-list li:nth-child(3) a:hover {
     right: 0;
     background: rgba(14, 14, 17, 0.9);
     cursor: -webkit-zoom-in;    
-    cursor: zoom-in;
+    cursor: pointer;
     opacity: 0;
     -webkit-transition: all 0.9s ease;    
     transition: all 0.9s ease;
@@ -754,11 +750,11 @@ ul.social-list li:nth-child(3) a:hover {
     padding: 0;
       -webkit-transform: translateY(20%);    
     transform: translateY(20%);
-    -webkit-transition: all 0.1ms;    
-    transition: all 0.1ms
+    -webkit-transition: all 0.5s;    
+    transition: all 0.5s;
 }
 /* Show Overlay on mouse over */
-.portfolio-item:hover .portfolio-item-details h3 {
+.portfolio-item:hover .portfolio-item-details p {
     -webkit-transform: translateY(0);    
     transform: translateY(0);
 }
