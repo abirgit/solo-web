@@ -16,6 +16,11 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   
+    #mobile-nav-open-btn {
+        display: block;
+    }
+    
+    
     
     /* Home */
     #home-heading h1 {
@@ -154,11 +159,14 @@ font-family: "Raleway",sans-serif;
         color: none;
     }
     .service, .service .icon {
-        text-align: center;
+        text-align: center !important;
     }
     .portfolio-item img {
         width: 1000px;
         font-size: 100px;
+}
+.testimonials {
+    padding: 140px 140px 140px 140px;
 }
 }
 
